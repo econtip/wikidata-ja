@@ -1,0 +1,50 @@
+====== 消費者物価指数 ======
+
+Consumer Price Index(CPI) のこと。
+
+図は1990年１月から2013年6月までの前年同月比
+{{:macro_economics:cpi:cpi.png?direct&300|1990年１月から2013年6月までの前年同月比}}
+
+
+{{:macro_economics:cpi:cpi.xlsx|グラフ付き Excel ファイル}}
+
+<code python draw_cpi.py>
+# coding: utf-8
+import numpy as np
+import matplotlib.pyplot as plt
+from pandas import Series, DataFrame
+import pandas as pd
+import codecs, urllib
+from datetime import datetime
+
+plt.ion()
+
+uri = 'http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000011288589'
+
+r = urllib.urlopen(uri)
+
+df0 = pd.read_csv(r, encoding='sjis')
+
+ym = df0.columns[0]
+
+cpi = df0.columns[1]
+c_cpi = df0.columns[2]
+cc_cpi = df0.columns[5]
+
+strym = df0[ym]
+intym = strym.map(lambda x: int(x) if x.isdigit() else -1)
+intym.index.name = u'YearMonth'
+
+after1990 = intym >= 199001
+
+df = df0[after1990][[cpi, c_cpi, cc_cpi]]
+new_colname = {cpi: u'CPI', c_cpi: u'Core CPI', cc_cpi: u'Core Core CPI'}
+df.rename(index = (lambda x: pd.Period(strym[x], 'M')), columns = new_colname, inplace=True)
+
+df = df.applymap(lambda x: float(x))
+#df.ix[pd.Period('200101', 'M'):].plot()
+df.to_csv('cpi-sjis.csv', encoding='sjis')
+df.plot(grid=True)
+plt.savefig('cpi.png', dpi = 150)
+
+</code>

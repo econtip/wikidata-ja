@@ -1,0 +1,21 @@
+====== 日銀新政策の成功は数式で全部わかる!  ======
+
+<html>
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?t=econmokurenne-22&o=9&p=8&l=as1&asins=4198636265&ref=qf_sp_asin_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+</html>
+
+[[http://d.hatena.ne.jp/tanakahidetomi/20130808#p1 | [経済]高橋洋一『日銀新政策の成功は数式で全部わかる！』]] 田中秀臣氏ブログ
+
+===== 負債の対 GDP 比 =====
+
+\( \mathrm{D} \) を負債，\( \mathrm{GDP} \) を国内総生産とする。
+
+\[
+\begin{align*}
+\Delta \frac{\mathrm{D}}{\mathrm{GDP}} 
+ &= \frac{\Delta \mathrm{D} \cdot \mathrm{GDP} - \mathrm{D} \cdot \Delta \mathrm{GDP}}{\mathrm{GDP}^2}\\
+ &= \frac{\Delta \mathrm{D}}{\mathrm{GDP}} - g \frac{\mathrm{D}}{\mathrm{GDP}}\\
+ &= \frac{-\mathrm{PB} + r \cdot \mathrm{D}}{\mathrm{GDP}} - g \frac{\mathrm{D}}{\mathrm{GDP}}\\
+ &= - \frac{\mathrm{PB}}{\mathrm{GDP}} - (g - r)\frac{\mathrm{D}}{\mathrm{GDP}}
+\end{align*}
+\]

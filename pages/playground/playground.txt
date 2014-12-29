@@ -1,0 +1,6 @@
+====== PlayGround ======
+\( \sin (x) + \cos(x) \)
+
+\[
+\int_{-\infty}^\infty f(x) dx
+\]

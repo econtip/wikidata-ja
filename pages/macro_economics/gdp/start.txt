@@ -1,0 +1,58 @@
+====== 国内総生産 ======
+
+===== 日本の GDP =====
+  - [[http://www.e-stat.go.jp/ | e-stat]] で「国内総生産」をキーワードに検索
+  - 1 国民経済計算 -> 国民経済計算確報 -> 平成7年基準
+
+===== 国際比較 =====
+
+{{ :macro_economics:gdp:ngdp.png?direct |}}
+
+１９８０年を１としたときの各国の自国通貨建て名目 GDP のグラフ。韓国とアイルランドも当初は入れようと思っていたけれども、成長率が非常に高くて一緒に描くとグラフが見づらくなるので除いた。
+
+日本の名目 GDP はこの間、２倍弱にしかなっていないことが分かる。
+
+{{:macro_economics:gdp:ngdp.xlsx|グラフ付き Excel ファイル}}
+
+
+==== データ入手法 ====
+
+[[http://www.imf.org/external/index.htm | IMF ]]に行き、「DATA AND STATISTICS」にカーソルを合わせ、現れたメニューの中から「World Economic Outlook Databases」をクリック。そして「World Economic Outlook Database April 2013」をクリックする。
+{{:macro_economics:gdp:imf-outlook1.png?direct&300 |}}　{{:macro_economics:gdp:imf-outlook2.png?direct&300|}}
+
+
+{{:macro_economics:gdp:imf-outlook3.png?direct&300 |}}
+現れたページで「Entire Dataset」をダウンロードする。
+
+
+==== Python コード ====
+
+<code python draw_ngdp.py>
+# coding: utf-8
+from pandas import Series, DataFrame
+import pandas as pd
+import matplotlib.pyplot as plt
+plt.ion()
+
+df = pd.read_table('WEOApr2013all.xls', index_col=[1,2])
+
+nations = ['JPN', 'USA', 'CAN', 'SWE', 'AUS', 'NZL', 'KOR', 'TWN', 'NOR', 'GBR', 'IRL', 'CHE', 'DNK']
+
+ngdp = {}
+
+for c in nations:
+    h = df.ix[c].ix['NGDP']
+    g = h[7:40].map(lambda x: float(x.replace(',', '')))
+    ngdp[h['Country']] = g
+
+NGDP = DataFrame(ngdp)
+NGDP.to_csv('NGDP.csv')
+NGDP.rename(index = (lambda x: pd.Period(x)), inplace = True)
+NGDPo1980 = NGDP.apply(lambda x: x/x[1980])
+
+title='The Ratio of NGDP to that in 1980'
+NGDPo1980.drop(['Korea', 'Ireland'], axis=1).plot(title=title)
+
+</code>
+
+参考： [[http://ja.wikipedia.org/wiki/ISO_3166-1|ISO コード（wikipedia より）]]

@@ -1,0 +1,23 @@
+====== 基礎的財政収支 ======
+===== データの取得 =====
+
+国民経済計算確報を見ればよいようだ。
+
+  - [[http://www.e-stat.go.jp/ | e-stat]] に行く。
+  - 「国民経済計算確報」で検索。
+  - 平成2年、平成7年、平成12年、平成17年のそれぞれに基準をおいたものがあるが、とりあえず平成2年基準をダウンロード。
+  - どうも違うらしい。
+  - [[http://www.esri.cao.go.jp/jp/sna/data/data_list/kakuhou/files/h23/h23_kaku_top.html | 内閣府 2011年度国民経済計算（2005年基準・93SNA）]] の「(6-1) 一般政府の部門別勘定（Excel形式：85KB）」がそれらしき雰囲気。
+  - 仕切りなおして [[http://www.esri.cao.go.jp/jp/sna/data/data_list/kakuhou/files/files_kakuhou.html | 内閣府ホーム > 統計情報・調査結果 > 国民経済計算（GDP統計） > 統計データ > 統計表（国民経済計算確報）]] に行く。
+  - 「平成12年基準（93SNA） - 1980年から掲載」の「2009（平成21）年度　国民経済計算確報（2000年基準・93SNA）（1980年～2009年） 」をクリック。
+  - [[http://www.esri.cao.go.jp/jp/sna/data/data_list/kakuhou/files/h21/h21_kaku_top.html | このページ]]の「フロー編(付表)」の「(6) 一般政府の部門別勘定（Excel形式：113KB）」をダウンロード。
+  - 「1. 統合勘定」の「 国内総生産勘定(生産側及び支出側)（Excel形式：53KB）」もダウンロード。
+
+上記のようにしてダウンロードしたファイルから名目 GDP とプライマリーバランスの部分だけを切り出して CSV 化したものを、以下に置く。
+
+  * {{:macro_economics:pb:gdpraw.csv|}} 名目 GDP
+  * {{:macro_economics:pb:pbraw.csv|}} プライマリーバランス
+
+
+===== 基礎的財政収支対名目GDP比 =====
+[[http://gendai.ismedia.jp/articles/-/35572?page=4 | この記事]] によると基礎的財政収支対GDP比は前年の名目GDP成長率と強い相関があるとのこと。これを異なる期間のデータを使って[[/html/pb/pb-notebook.html | 確かめた]]。

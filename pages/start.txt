@@ -1,0 +1,21 @@
+====== 経済まめ知識 ======
+
+
+経済関連の話題を紹介する予定。
+
+  * [[events]]
+  * [[.:macro economics:start]]
+  * [[.:micro econimics:start]]
+  * [[.:pension:start]]
+  * [[.:deregulation:start]]
+  * [[.:library:start]]
+  * [[.:words:start]]
+  * [[.:statistics:start]]
+===== リンク集 =====
+
+  * [[http://www.imf.org/external/index.htm | IMF]]
+    * [[http://elibrary-data.imf.org/ | IMF elibrary]]
+  * [[http://www.boj.or.jp | 日本銀行]]
+    * [[http://www.boj.or.jp/statistics/outline/exp/index.htm/ | 統計に関する解説]]
+  * [[http://econ101.jp | 経済学101]] 海外経済関係記事の翻訳等
+  * [[http://ecodb.net/ | 世界経済のネタ帳]]

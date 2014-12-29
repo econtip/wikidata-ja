@@ -1,0 +1,12 @@
+====== 統計 ======
+  * [[http://www.e-stat.go.jp/SG1/estat/eStatTopPortal.do | 政府統計の総合窓口 e-Stat]]
+  * [[http://statdb.nstac.go.jp | 次世代統計利用システム]]
+  * [[http://www.stat.go.jp | 総務省統計局]]
+    * [[http://www.stat.go.jp/data/cpi/index.htm | 消費者物価指数 CPI]]
+      * [[http://www.stat.go.jp/data/cpi/4-1.htm | 消費者物価指数に関するＱ＆Ａ（回答）]] A-5 にコア、コアコアの説明あり
+  * [[http://www.mof.go.jp/tax_policy/index.html | 税制]]
+    * [[http://www.mof.go.jp/tax_policy/reference/account/index.htm | 租税及び印紙収入決算額調]]
+    * [[http://www.mof.go.jp/tax_policy/reference/account/data.htm | 税制 > 関連資料・データ > 租税及び印紙収入決算額調 > 統計表一覧]]
+  * [[http://www.mhlw.go.jp/toukei_hakusho/toukei/ | 厚生労働省 各種統計調査]]
+    * [[http://www.mhlw.go.jp/toukei/itiran/ | 厚生労働統計一覧]]
+    * [[http://www.mhlw.go.jp/toukei/youran/ | 統計要覧一覧]]

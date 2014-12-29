@@ -1,0 +1,13 @@
+====== マクロ経済 ======
+
+  * [[.:vat:start]]
+  * [[.:me:start]]
+  * [[.:tax:start]]
+  * [[.:social security:start]]
+  * [[.:cpi:start]]
+  * [[.:jgb:start]]
+  * [[.:gdp:start]]
+  * [[.:pb:start]]
+
+
+

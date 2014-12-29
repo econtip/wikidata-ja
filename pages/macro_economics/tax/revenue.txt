@@ -1,0 +1,40 @@
+====== 税収 ======
+  - 平成９年（１９９７年）の消費税増税前後の税収の変化を知りたい
+  - [[http://www.mof.go.jp/tax_policy/reference/account/data.htm | 財務省のこのページ]]には平成９年以降のデータしかない。困った。
+  - [[http://www.e-stat.go.jp/SG1/estat/eStatTopPortal.do | e-stat]] で「財政統計」をキーワードに検索
+  - 予算決算及び純計 [18] を見る
+  - 4の昭和57年度以降一般会計歳入主要科目別決算 を見る。
+
+このままだとグラフが描きづらいので、加工したうえでグラフをつけた {{:macro_economics:tax:tax_revenue.xls|Excel ファイル}}
+
+また、pandas で読み込みやすいように加工した {{:macro_economics:tax:tax_revenue2.csv| csv ファイル}}
+
+{{ :macro_economics:tax:tax_revenue.png?direct |}}
+
+
+<code python draw_tr.py>
+# coding: utf-8
+from pandas import Series, DataFrame
+import pandas as pd
+import matplotlib.pyplot as plt
+
+plt.ion()
+
+df = pd.read_csv('tax_revenue2.csv', encoding='sjis', index_col = 0)
+dg = df.applymap(lambda x: int(x.replace(',', '')))
+
+fig = plt.figure()
+ax = fig.add_axes([0.1, 0.1, 0.8, 0.8])
+
+yt = [i* 1e7 for i in range(8)]
+ytlables = [u'%02i 兆円' % (i/1e6) for i in yt]
+
+ax.set_ylim([0,7e7])
+ax.set_yticks(yt)
+ax.set_yticklabels(ytlables)
+
+dg.plot(grid=True, ax = ax)
+plt.plot([1997,1997], [0, 7e7], 'k--')
+#plt.savefig('tax_rev.png', dpi=150) 日本語が出力されない (T_T)
+
+</code>
