@@ -19,3 +19,7 @@
     * [[http://www.boj.or.jp/statistics/outline/exp/index.htm/ | 統計に関する解説]]
   * [[http://econ101.jp | 経済学101]] 海外経済関係記事の翻訳等
   * [[http://ecodb.net/ | 世界経済のネタ帳]]
+
+
+----
+[[https://github.com/econtip/wikidata-ja | 本サイトのデータの github リポジトリ]]
