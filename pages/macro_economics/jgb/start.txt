@@ -1,3 +1,18 @@
 ====== 国債 ======
 
+  * [[http://www.mof.go.jp/jgbs/index.html | 国債（財務省ページ）]]
+    * [[http://www.mof.go.jp/faq/jgbs/index.htm | よくあるご質問>国債]]
+    * [[http://www.mof.go.jp/faq/jgbs/04ab.htm | 国債の種類]]
+    * [[http://www.mof.go.jp/jgbs/topics/bond/10year_inflation-indexed/syouhinsekkei.htm | 物価連動国債の商品設計]]
 
+===== 用語 =====
+
+  * 額面金額： 表面上の金額。
+  * 表面利率： 額面金額に対する利子率（固定利付債の場合）。
+  * 購入価格： 債券の実際の購入価格。額面金額とは必ずしも一致しない。
+  * 利回り： 実際の運用益の率。単利で表す場合と複利で表す場合がある。
+===== 固定利付債 =====
+
+===== 物価連動国債 =====
+
+===== ブレーク・イーブン・インフレ率 =====
