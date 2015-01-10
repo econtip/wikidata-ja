@@ -27,7 +27,7 @@ R_{\rm s} = \dfrac{S - P}{NP} = \dfrac{\overline{P} \, \overline{R} + (\overline
 \]
 
 \[
-R_{\rm c} = \sqrt[N]{S/P} = \left\{(N \overline{R} + 1)(\overline{P}/P) \right\}^{1/N}
+R_{\rm c} = \sqrt[N]{S/P} - 1 = \left\{(N \overline{R} + 1)(\overline{P}/P) \right\}^{1/N} - 1
 \]
 ===== 物価連動国債 =====
 
@@ -45,7 +45,7 @@ S_{\rm R} = N \overline{P} \, \overline{R} + \overline{P}
 
 複利での1期当たりの実質利回りを $r_{\rm c}$ とおくと、これは固定利付債と同様に計算される：
 \[
-r_{\rm c} = \sqrt[N]{S_{\rm R}/P} = \left\{(N \overline{R} + 1)(\overline{P}/P) \right\}^{1/N}
+r_{\rm c} = \sqrt[N]{S_{\rm R}/P} - 1 = \left\{(N \overline{R} + 1)(\overline{P}/P) \right\}^{1/N} - 1
 \]
 
 ===== ブレーク・イーブン・インフレ率 =====
