@@ -69,3 +69,130 @@ r_{\rm c} = \sqrt[N]{S_{\rm R}/P} - 1 = \left\{(N \overline{R} + 1)(\overline{P}
 さらに $R_{\rm c} r_{\rm c}$ などの2次の微少量を無視した。
 
 :!: これは単純化された計算であり、リスクプレミアムが考慮されていないことに注意する必要がある。
+
+
+===== ドーマー条件 =====
+
+  * 参考
+    * [[http://d.hatena.ne.jp/tanakahidetomi/20130808#p1|ブログ記事]]
+    * [[http://www.amazon.co.jp/デフレと超円高-講談社現代新書-岩田-規久男/dp/4062880911/ | デフレと超円高 (pp. 217--221)]]
+
+  * \(P\) ：基礎的財政収支（プライマリーバランス）
+  * \(g\) ：名目 GDP 成長率
+  * \(r\) ：公債金利
+
+とおき、これらを定数とする。実際には \( P \) は名目成長率 \(g\) と密接な関係があるということである([[http://gendai.ismedia.jp/articles/-/35572?page=4]], [[http://econ.mokuren.ne.jp/html/pb/pb-notebook.html]])。
+
+また、
+  * \(G\) ：名目 GDP 
+  * \(B\) ：公債残高
+とおく。すると次のようになる：
+\[
+\Delta G = gG, \qquad \Delta B = rB - P
+\]
+
+公債とプライマリーバランスの名目 GDP 比をそれぞれ \(b\) , \(p\) とおくと、
+
+\[
+\begin{align}
+\Delta b 
+  &= \Delta \left( \dfrac{B}{G} \right)\\
+  &= \dfrac{\Delta B \cdot G - B \cdot \Delta G}{G^2}\\
+  &= \dfrac{(rB - P)G - BgG}{G^2}\\
+  &= rb - p - gb\\
+  &= (r-g)b - p
+\end{align}
+\]
+
+公債の対 GDP 比を減らす（ \( \Delta b < 0\) ）ためには \(p > (r-g)b\) であれば良い。
+
+\(n\) 期における \(b\) を \(b_n\) と書くことにすると、
+\[
+b_{n+1} - b_{n} = (r-g)b_n - p
+\]
+となる。以下、 \(|r-g|<1 \) とし、 \(r-g\) の符号によって場合分けする。
+====  r - g < 0 のとき ====
+
+\(\alpha = p/(r-g)\) とおくと \(b_{n+1} - \alpha = (1 + r - g)(b_n - \alpha) \) であるから
+\[
+b_n - \alpha = (1 + r - g)^n (b_0 - \alpha)
+\]
+従って、
+\[
+\lim_{n \rightarrow \infty} b_n = \alpha
+\]
+
+プライマリーバランスがマイナス（ \( p < 0 \) ）であったとしても \(b_n\) は発散せず \( \alpha = p/(r-g) \) に収束する。例えば、 \( r - g = -0.01 \) のとき \( p = -0.005 \) だと、 \(\alpha = 0.5\) となる。
+
+==== r - g = 0 のとき ====
+
+\[
+b_n = b_0 + pn
+\]
+
+単純にプライマリーバランスが積み重なっていく。
+==== r - g > 0 のとき ====
+\(r - g < 0 \) のときと同様に次のようになる。
+\[
+b_n - \alpha = (1 + r - g)^n (b_0 - \alpha)
+\]
+
+よって、 
+
+  * \(b_0 > \alpha \) ならば \(\lim_{n \rightarrow \infty} b_n = +\infty\)
+  * \(b_0 < \alpha \) ならば \(\lim_{n \rightarrow \infty} b_n = -\infty\)
+
+\( b_n \) を \(+\infty \) に発散させず減らしていくために必要なプライマリーバランスは \(p > b_0(r-g)\) となる。 \(b_0 = 1\), \(r - g = 0.01 \) であれば、 \(p > 0.01 \) の黒字が必要。
+
+==== おまけ ====
+
+どこかで見かけたグラフのことを思い出すと、 \(r-g\) がホワイトノイズになっている場合をパズルとして考えてみたくなる。
+
+\[
+\newcommand{\d}{\mathrm d}
+\]
+
+微分形で書くと、
+\[
+\dfrac{\d b}{\d t} = \dfrac{\d W_t}{\d t}b - p
+\]
+よって
+\[
+\d b = b \, \d W_t - p \, \d t
+\]
+
+まず、 \( p = 0 \) の場合を考えると、 \(Y = \log b\) とおけば伊藤の公式より
+\[
+\begin{align}
+\d \, Y 
+  &= \d \, b / b - \dfrac{1}{2} \dfrac{1}{b^2} ( \d b)^2\\
+  &= \d \, W_t - \dfrac{1}{2} \dfrac{1}{b^2}b^2 \d t\\
+  &= \d \, W_t - \dfrac{1}{2} \, \d t
+\end{align}
+\]
+
+よって \( \log (b/b_0) = W_t - \dfrac{1}{2} t \) であり、
+\[
+b = b_0 \exp\left( - \dfrac{1}{2} t + W_t \right)
+\]
+を得る。
+
+一般の \(p(t) \) に対しては、定数変化法により
+\[
+b = c(t)  \exp\left( - \dfrac{1}{2} t + W_t \right)
+\]
+とおいて、元の方程式に代入して計算することにより
+\[
+c'(t) = -p(t) \exp(\dfrac{1}{2} t -W_t )
+\]
+となるので
+\[
+c(t) = b_0 - \int_0^t \exp(\dfrac{1}{2} \tau -W_{\tau}) p(\tau) \, \d \tau
+\]
+従って
+\[
+b(t) 
+  = b_0 \exp\left(- \dfrac{1}{2} t + W_t\right) 
+    - \int_0^t \exp\left(-\dfrac{1}{2}(t - \tau) 
+      + W_t - W_{\tau}\right) p(\tau) \, \d \tau
+\]
