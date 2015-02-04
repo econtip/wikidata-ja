@@ -127,7 +127,7 @@ b_n - \alpha = (1 + r - g)^n (b_0 - \alpha)
 ==== r - g = 0 のとき ====
 
 \[
-b_n = b_0 + pn
+b_n = b_0 - pn
 \]
 
 単純にプライマリーバランスが積み重なっていく。
@@ -165,9 +165,9 @@ b_n - \alpha = (1 + r - g)^n (b_0 - \alpha)
 \[
 \begin{align}
 \d \, Y 
-  &= \d \, b / b - \dfrac{1}{2} \dfrac{1}{b^2} ( \d b)^2\\
-  &= \d \, W_t - \dfrac{1}{2} \dfrac{1}{b^2}b^2 \d t\\
-  &= \d \, W_t - \dfrac{1}{2} \, \d t
+  &= \d b / b - \dfrac{1}{2} \dfrac{1}{b^2} ( \d b)^2\\
+  &= \d W_t - \dfrac{1}{2} \dfrac{1}{b^2}b^2 \d t\\
+  &= \d W_t - \dfrac{1}{2} \, \d t
 \end{align}
 \]
 
