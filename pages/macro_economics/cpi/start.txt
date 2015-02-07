@@ -2,8 +2,14 @@
 
 Consumer Price Index(CPI) のこと。
 
-図は1990年１月から2013年6月までの前年同月比
+  * [[http://www.stat.go.jp/data/cpi/4-1.htm | 消費者物価指数に関するＱ＆Ａ（回答）（総務省統計局）]]
+  * [[http://www.e-stat.go.jp/SG1/estat/List.do?bid=000001033702&cycode=0 | 平成22年基準消費者物価指数 長期時系列データ 品目別価格指数 全国 月次]]
+
+右図は1990年１月から2013年6月までの前年同月比
 {{:macro_economics:cpi:cpi.png?direct&300|1990年１月から2013年6月までの前年同月比}}
+
+右図は1990年１月から2014年12月までの前年同月比
+{{:macro_economics:cpi:cpi2.png?direct&300|1990年１月から2014年12月までの前年同月比}}
 
 
 {{:macro_economics:cpi:cpi.xlsx|グラフ付き Excel ファイル}}
