@@ -3,6 +3,7 @@
   * [[.:a:start]]
   * [[.:i:start]]
   * [[.:k:start]]
+  * [[.:p:start]]
   * [[.:s:start]]
   * [[.:t:start]]
   * [[.:w:start]]
