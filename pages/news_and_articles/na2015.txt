@@ -21,9 +21,16 @@
   * 2015年02月05日 [[http://diamond.jp/articles/-/66253 | 国の債務超過490兆円を意外と簡単に減らす方法]]
   * 2015年02月12日 [[http://biz-journal.jp/2015/02/post_8908.html | 格付け会社のデタラメな実態　不正疑惑で調査、破綻寸前企業に高格付け、市場で影響力小]]
   * 2015年02月16日 [[http://gendai.ismedia.jp/articles/-/42125 | 財務省はまだ消費税を上げる気だ ーー「中長期の経済財政に関する試算」の正しい読み方]]
+  * 2015年02月19日 [[http://diamond.jp/articles/-/66872 | 財政再建の妙薬は、増税ではなく「増収・インフレ税」]]
 ===== 原田 泰 =====
   * 2015年1月21日  [[http://www.asahi.com/articles/ASGDS5TCMGDSULFA034.html | さらに金融緩和を、国債まだ買える　原田泰・早大教授]]
 
+===== トマ・ピケティ =====
+  * 2015年01月31日 [[http://news.mynavi.jp/articles/2015/01/31/ThomasPiketty/?rt=p_recommend|トマ・ピケティ氏、「日本の富は高齢者に集中、若い人たちに利する税制を」]]
+  * 2015年02月06日 [[http://business.nikkeibp.co.jp/article/topics/20150204/277158/ | 「富の集中？　もっと重要な問題がある！」 トマ・ピケティ教授×吉川洋教授 特別対談]]
+
+===== 富士通総研 =====
+  * 2015年02月16日 [[http://www.fujitsu.com/jp/group/fri/report/outlook/2015/2015no01.html | 2015・2016年度経済見通し -円安、原油安で景気拡大が続く-]]
 ===== 毎日新聞 =====
 
   * 2015年01月16日 [[http://mainichi.jp/select/news/20150117k0000m020073000c.html | 冬のボーナス:２年連続増…主要企業、９０年以来の伸び]]
@@ -35,7 +42,7 @@
   * 2015年01月16日 [[http://jp.reuters.com/article/jp_forum/idJPKBN0KP0PY20150116 | コラム：ユーロ安が「長期化」する理由＝村上尚己氏]]
 
 ===== 若田部 昌澄 =====
-  * 2015年1月18日 [[http://www.forbes.com/sites/mwakatabe/2015/01/18/japans-fiscal-situation-is-not-as-bad-as-many-assume/ | Japan's Fiscal Situation Is Not As Bad As Many Assume]]
+  * 2015年01月18日 [[http://www.forbes.com/sites/mwakatabe/2015/01/18/japans-fiscal-situation-is-not-as-bad-as-many-assume/ | Japan's Fiscal Situation Is Not As Bad As Many Assume]]
   * 2015年01月20日 [[http://www.bloomberg.co.jp/news/123-NI9FRX6JIJV801.html |２年の公約掲げている以上、日銀は目標未達なら追加緩和を]]
   * 2015年02月05日 [[http://www.asahi.com/articles/ASH1V5GGDH1VULFA024.html | 日銀法改正でアベノミクス再起動　若田部昌澄・早大教授]]
  
