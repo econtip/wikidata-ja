@@ -12,6 +12,7 @@
   * [[.:words:start]]
   * [[.:statistics:start]]
   * [[.:news and articles:start]]
+  * [[.:graphs:start]]
 ===== リンク集 =====
 
   * [[http://www.imf.org/external/index.htm | IMF]]

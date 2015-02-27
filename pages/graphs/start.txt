@@ -1,0 +1,4 @@
+====== グラフ等（IPython Notebook） ======
+
+  * 2015年02月24日 [[http://nbviewer.ipython.org/github/econtip/wikidata-ja/blob/master/aux/ipynb/1502_GB.ipynb | 国債金利]]
+  * 2015年02月12日[[http://nbviewer.ipython.org/github/econtip/wikidata-ja/blob/master/aux/ipynb/1502_CPI.ipynb | 消費者物価指数の前年同月比]]
