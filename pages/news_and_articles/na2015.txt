@@ -11,10 +11,12 @@
 ===== 茨城新聞 =====
   * 2015年02月05日 [[http://ibarakinews.jp/news/newsdetail.php?f_jun=CN2015020501001729.1.N.20150205T185624.xml&elem=z|（共同通信社） 財政の黒字化「国際公約でない」 首相、参院予算委質疑で]]
 
+===== エコノミスト =====
+  * 2015年02月27日 [[http://jbpress.ismedia.jp/articles/-/43041 | デフレ：物価下落の高い代償]]
 ===== 片岡 剛士 =====
 
   * 2015年01月15日 [[http://www.murc.jp/thinktank/rc/column/kataoka/column/kataoka150115 | 2015年はアベノミクス再機動成功の年となるか？]]
-
+  * 2015年02月28日 [[http://real-japan.org/原田泰『ベーシック・インカム－%E3%80%80国家は貧困問/ | 原田泰『ベーシック・インカム－　国家は貧困問題を解決できるか』（中公新書）を読む]]
 ===== 勝間 和代 =====
   * 2015年02月24日 [[http://www.asahi.com/articles/ASH2F4WQQH2FULFA01N.html | リフレと再分配の二段構えを　経済評論家・勝間和代氏]]
 ===== ポール・クルーグマン =====
@@ -22,7 +24,7 @@
   * 2015年01月02日 [[http://president.jp/articles/-/14177 | クルーグマン教授・独白「日本経済は、世界の良きモデルになる」【1】]]
   * 2015年01月02日 [[http://president.jp/articles/-/14178 | クルーグマン教授・独白「日本経済は、世界の良きモデルになる」【2】]]
   * 2015年02月13日 [[http://toyokeizai.net/articles/-/60520 | クルーグマン教授､｢緊縮財政｣をメッタ斬り ドイツの倹約主婦のようになるのは間違いだ]]
-
+  * 2015年02月24日 [[http://krugman.blogs.nytimes.com/2015/02/24/phantom-phiscal-crises/ | Phantom Phiscal Crises]]
 ===== 鈴木 亘 =====
 
   * 2015年02月21日 [[http://blogs.yahoo.co.jp/kqsmr859/39036907.html | 消費税引き上げの負の影響に触れるのはタブーなのか]]
