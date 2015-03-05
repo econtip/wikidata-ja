@@ -29,6 +29,9 @@
 
   * 2015年02月21日 [[http://blogs.yahoo.co.jp/kqsmr859/39036907.html | 消費税引き上げの負の影響に触れるのはタブーなのか]]
   * 日付不詳 [[https://www.bookscan.co.jp/interviewarticle/306/all | 学問で「世の中と向き合う」発想を持ち続けたい]]
+
+===== 高田 創 =====
+  * 2015年01月22日 [[http://www.mizuho-ri.co.jp/publication/research/pdf/today/rt150122.pdf | 軽減税率は欧州で失敗の歴史、日本が導入する必要はあるか]] (PDF)
 ===== 高橋 洋一 =====
 
   * 2015年01月19日 [[http://gendai.ismedia.jp/articles/-/41819 | 今週は欧州激動！　ギリシャのユーロ離脱、ECBの量的緩和をどう読むか]]
@@ -36,7 +39,9 @@
   * 2015年02月12日 [[http://biz-journal.jp/2015/02/post_8908.html | 格付け会社のデタラメな実態　不正疑惑で調査、破綻寸前企業に高格付け、市場で影響力小]]
   * 2015年02月16日 [[http://gendai.ismedia.jp/articles/-/42125 | 財務省はまだ消費税を上げる気だ ーー「中長期の経済財政に関する試算」の正しい読み方]]
   * 2015年02月19日 [[http://diamond.jp/articles/-/66872 | 財政再建の妙薬は、増税ではなく「増収・インフレ税」]]
+  * 2015年02月20日 [[http://facta.co.jp/article/201503005.html | GPIFに根本的「欠陥」130兆円の年金運用が危うい。根の深いこのバトルは、そもそも厚労省の制度設計の過ちが元凶なのだ]] 
   * 2015年02月23日 [[http://gendai.ismedia.jp/articles/-/42212 | 「ピケティ格差解説」TV番組に出たら、出演者がみんな「所得トップ１％に入る年収」だった]]
+  * 2015年03月05日 [[http://diamond.jp/articles/-/67856 | 賃金が上昇するのはＧＤＰギャップ解消の半年後]]
 ===== 原田 泰 =====
   * 2015年01月21日  [[http://www.asahi.com/articles/ASGDS5TCMGDSULFA034.html | さらに金融緩和を、国債まだ買える　原田泰・早大教授]]
 
@@ -56,6 +61,9 @@
 ===== 村上 尚己 =====
   * 2015年01月16日 [[http://jp.reuters.com/article/jp_forum/idJPKBN0KP0PY20150116 | コラム：ユーロ安が「長期化」する理由＝村上尚己氏]]
 
+===== ロイター =====
+  * 2015年02月04日 [[http://jp.reuters.com/article/topNews/idJPKBN0L801Q20150204 | 日銀法改正、将来の選択肢として視野に入れていきたい＝安倍首相]]
+  * 2015年03月03日 [[http://jp.reuters.com/article/kyodoPoliticsNews/idJP2015030301002304 | 民主、「景気条項」を維持]]
 ===== 若田部 昌澄 =====
   * 2015年01月18日 [[http://www.forbes.com/sites/mwakatabe/2015/01/18/japans-fiscal-situation-is-not-as-bad-as-many-assume/ | Japan's Fiscal Situation Is Not As Bad As Many Assume]]
   * 2015年01月20日 [[http://www.bloomberg.co.jp/news/123-NI9FRX6JIJV801.html |２年の公約掲げている以上、日銀は目標未達なら追加緩和を]]
