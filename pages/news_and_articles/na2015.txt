@@ -18,6 +18,8 @@
   * 2015年01月15日 [[http://www.murc.jp/thinktank/rc/column/kataoka/column/kataoka150115 | 2015年はアベノミクス再機動成功の年となるか？]]
   * 2015年02月28日 [[http://real-japan.org/原田泰『ベーシック・インカム－%E3%80%80国家は貧困問/ | 原田泰『ベーシック・インカム－　国家は貧困問題を解決できるか』（中公新書）を読む]]
   * 2015年03月13日 [[http://www.sbbit.jp/article/cont1/29411 | 片岡剛士氏インタビュー：データから読み解く、増税延期後の日本経済の実態]]
+  * 2015年03月15日 [[http://www.nikkei.com/article/DGKKZO84380030T10C15A3TY6000/ | 物価目標２％を問い直す 
+追加緩和で達成めざせ　三菱ＵＦＪリサーチ＆コンサルティング主任研究員　片岡剛士氏 ]]
 ===== 勝間 和代 =====
   * 2015年02月24日 [[http://www.asahi.com/articles/ASH2F4WQQH2FULFA01N.html | リフレと再分配の二段構えを　経済評論家・勝間和代氏]]
 ===== ポール・クルーグマン =====
@@ -26,6 +28,7 @@
   * 2015年01月02日 [[http://president.jp/articles/-/14178 | クルーグマン教授・独白「日本経済は、世界の良きモデルになる」【2】]]
   * 2015年02月13日 [[http://toyokeizai.net/articles/-/60520 | クルーグマン教授､｢緊縮財政｣をメッタ斬り ドイツの倹約主婦のようになるのは間違いだ]]
   * 2015年02月24日 [[http://krugman.blogs.nytimes.com/2015/02/24/phantom-phiscal-crises/ | Phantom Phiscal Crises]]
+  * 2015年03月13日 [[http://krugman.blogs.nytimes.com/2015/03/13/nerds-high-priests-and-the-state-of-economics/?smid=tw-NytimesKrugman&seid=auto&_r=1| Nerds, High Priests, and the State of Economics]]
 ===== 鈴木 亘 =====
 
   * 2015年02月21日 [[http://blogs.yahoo.co.jp/kqsmr859/39036907.html | 消費税引き上げの負の影響に触れるのはタブーなのか]]
@@ -43,11 +46,11 @@
   * 2015年02月20日 [[http://facta.co.jp/article/201503005.html | GPIFに根本的「欠陥」130兆円の年金運用が危うい。根の深いこのバトルは、そもそも厚労省の制度設計の過ちが元凶なのだ]] 
   * 2015年02月23日 [[http://gendai.ismedia.jp/articles/-/42212 | 「ピケティ格差解説」TV番組に出たら、出演者がみんな「所得トップ１％に入る年収」だった]]
   * 2015年03月05日 [[http://diamond.jp/articles/-/67856 | 賃金が上昇するのはＧＤＰギャップ解消の半年後]]
-
+  * 2015年03月15日 [[http://biz-journal.jp/2015/03/post_9244.html | 結局、日本経済は良くなっているのか？GDP成長率マイナス公算、企業利益は過去最高水準]]
 ===== 日本経済新聞 =====
 
   * 2015年03年03日 [[http://www.nikkei.com/article/DGXLASFL02H9E_S5A300C1000000/ | 現金給与総額、11カ月連続増 １月1.3％増 中小企業でボーナス伸びる]]
-
+  * 2015年03月15日 [[http://www.nikkei.com/article/DGXLASFD15H0A_V10C15A3000000/ | トヨタ、ベア過去最高水準4000円　15年春季労使交渉]]
 ===== 長谷川 幸洋 =====
   * 2015年03月13日 [[http://gendai.ismedia.jp/articles/-/42469 | 政治的にアンタッチャブルだった「おかしな医薬分業」の実態が規制改革会議でようやく議論の対象に]]
 ===== 浜田 宏一 =====
@@ -77,6 +80,11 @@
 ===== 村上 尚己 =====
   * 2015年01月16日 [[http://jp.reuters.com/article/jp_forum/idJPKBN0KP0PY20150116 | コラム：ユーロ安が「長期化」する理由＝村上尚己氏]]
 
+===== 矢野 浩一 =====
+  * 2015年03月14日 [[https://dl.dropboxusercontent.com/u/2260564/2014/dsge/reflation_and_regime_change_2015_03_14_upload.pdf | インフレ予想とデフレ脱却 〜レジーム・チェンジの経済学〜]] (PDF) 国民経済計算研究会
+    * 関連情報
+    * [[https://sites.google.com/site/macroeconometrics2011/ | 動学的確率的一般均衡モデル&ベイズ・マクロ計量経済学]]
+    * [[http://honto.jp/ebook/pd_26028898.html | 2014年はアベノミクスの正念場：矢野浩一 （週刊エコノミスト2014年1／14号）]]
 ===== ロイター =====
   * 2015年02月04日 [[http://jp.reuters.com/article/topNews/idJPKBN0L801Q20150204 | 日銀法改正、将来の選択肢として視野に入れていきたい＝安倍首相]]
   * 2015年03月03日 [[http://jp.reuters.com/article/kyodoPoliticsNews/idJP2015030301002304 | 民主、「景気条項」を維持]]
