@@ -13,6 +13,8 @@
   * [[.:statistics:start]]
   * [[.:news and articles:start]]
   * [[.:graphs:start]]
+  * [[.:tales:start]]
+    * [[tales:a_fairy_tale_of_money|]]
 ===== リンク集 =====
 
   * [[http://www.imf.org/external/index.htm | IMF]]

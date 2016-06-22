@@ -2,3 +2,5 @@
 
   * 2015年02月24日 [[http://nbviewer.ipython.org/github/econtip/wikidata-ja/blob/master/aux/ipynb/1502_GB.ipynb | 国債金利]]
   * 2015年02月12日[[http://nbviewer.ipython.org/github/econtip/wikidata-ja/blob/master/aux/ipynb/1502_CPI.ipynb | 消費者物価指数の前年同月比]]
+  * 2016年03月31日 [[http://nbviewer.jupyter.org/github/econtip/wikidata-ja/blob/master/aux/ipynb/real-sa-c-index.ipynb | 家計消費支出]]
+  * 2016年05月26日 [[http://nbviewer.jupyter.org/github/econtip/wikidata-ja/blob/master/aux/ipynb/re.ipynb | 税収と経済成長の関係について]]
